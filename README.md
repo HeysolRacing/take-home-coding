@@ -32,6 +32,7 @@ This code will upload the data into SQL Server Database in a stage table called 
 
 This image
 
+
 ![image](https://user-images.githubusercontent.com/25781936/231886473-839ca006-03ec-42e2-969d-c0035688f83a.png)
 
 this code will divide the information provide from the datasource into a dimension into SQL Server Database.
@@ -46,8 +47,16 @@ and
 
 ### SQL Server 
 
-You need to create a database called Test in SQL Server
+You need to create a database called Test in SQL Server : CREATE DATABASE Test
 
-Then go to script and run all the objects
+Then go to script and run all the objects, Follow the instructions in Test.sql script please.
 
-***Follow the instructions in Test.sql script***
+***The logic will continue in the same way, there few gaps identified in the current model. Those are not well identified due to a lack of definition***
+
+Steps :
+
+   1. Upload the information into the Fact Table called [dbo].[FactTracking].
+   2. Validate information is distributed in the correct way and start with possible queries to get specific date.
+   3. We can create views to show specific information.
+   4. Connect a BI tool to show information.
+
