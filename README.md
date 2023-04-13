@@ -21,7 +21,12 @@ To Connect python with SQL Server we could use pyodbc package, To install the py
 
 Python Code 
 
-this code will upload the information into SQL Server Database
+this code will upload the datasource into SQL Server Database in a table called [ST_MultiDays]
+
+There is a small diagram that shows how the DW was created
+
+![image](https://user-images.githubusercontent.com/25781936/231888795-2e81370d-fbc2-4555-b92f-c877bd22c26c.png)
+
 
 This image
 
